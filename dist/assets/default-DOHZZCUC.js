@@ -1,1 +1,0 @@
-import{c as n,r as o,o as p,w as t,a as e,V as s,b as _}from"./index-B25LenNE.js";const f={__name:"default",setup(c){return(l,u)=>{const a=o("router-view"),r=o("AppFooter");return p(),n(_,null,{default:t(()=>[e(s,null,{default:t(()=>[e(a)]),_:1}),e(r)]),_:1})}}};export{f as default};
