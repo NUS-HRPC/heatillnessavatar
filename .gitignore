@@ -1,0 +1,48 @@
+.DS_Store
+
+# Node
+node_modules/
+dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# Temporary Excel files
+~$*.xls*
+
+# nohup
+nohup.out
+out.log
+
+# Environment variables
+.env
+
+# cron jobs
+cron.sh
+
+# Excel files
+*.xlsx

@@ -1,0 +1,132 @@
+.fixed-select-menu {
+  width: 40%;
+  max-width: 500px;
+  min-width: 250px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  .fixed-select-menu {
+    max-width: 60vw;
+    margin: 0 auto;
+  }
+}
+
+.custom-table td:nth-child(1),
+.custom-table th:nth-child(1) {
+  width: 220px;
+}
+
+
+.custom-table td:nth-child(2),
+.custom-table th:nth-child(2) {
+  width: 50px;
+}
+
+.custom-table td:nth-child(3),
+.custom-table th:nth-child(3) {
+  width: 260px;
+}
+.custom-table td:nth-child(4),
+.custom-table th:nth-child(4) {
+  width: 150px;
+}
+.custom-table td:nth-child(5),
+.custom-table th:nth-child(5) {
+  width: 30px;
+}
+.custom-table td:nth-child(6),
+.custom-table th:nth-child(6) {
+  width: 50px;
+}
+.custom-table td:nth-child(7),
+.custom-table th:nth-child(7) {
+  width: 80px;
+}
+
+.custom-table thead .v-data-table__th {
+  background-color: #F5F5F5 !important;
+  padding: 2px 12px !important;     
+  font-size: 15px;
+  line-height: 1.2 !important;    
+  height: 32px !important;         
+  vertical-align: middle !important;
+}
+
+.black-label .v-label {
+  color: black !important;
+  font-size:17px;
+  font-weight: 400;
+}
+
+.v-data-table .v-select__menu-icon {
+  pointer-events: auto !important;
+  cursor: pointer;
+}
+
+.v-data-table .v-field__append-inner {
+  pointer-events: auto !important;
+}
+
+.custom-select .v-field {
+  background-color: #E0E0E0 !important;
+  border-radius: 9999px !important;
+  padding: 4px 10px !important;
+  box-shadow: none !important;
+  max-height: 40px !important;
+}
+
+
+.custom-select .v-field__outline {
+  display: none !important;
+}
+
+.custom-select .v-label {
+  color: #000000 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  top: 8px !important;
+}
+
+
+.custom-select .v-field__input input {
+  font-size: 14px !important;
+  padding: 20px 0 !important;
+}
+
+
+.custom-select .v-field__loader {
+  display: none !important;
+}
+
+
+.custom-select .v-field__overlay {
+  display: none !important;
+}
+
+
+.custom-select .v-select__menu-icon {
+  color: #000000 !important;
+}
+
+.v-input__details:empty {
+  display: none !important;;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+ .v-slider-thumb__label {
+  background-color: white !important;
+  color: black !important;
+}
+
+.v-field.v-field--active.v-field--appended.v-field--center-affix.v-field--dirty.v-field--no-label.v-field--variant-outlined.v-theme--light.v-locale--is-ltr .v-field__append-inner {
+  display: none !important;
+}
+
+.text-h6 {
+ font-weight: 450 !important;
+ font-size: 18px !important;
+}
